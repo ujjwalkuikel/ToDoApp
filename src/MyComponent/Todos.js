@@ -5,7 +5,7 @@ export const Todos=(props)=> {
   return (
     <div className="container">
 
-      <h4 className='text-center'>ToDo List</h4>
+      <h3 className='text-center'>ToDo List</h3>
       {props.todo===0? "Not available for display":
         props.todo.map((todo)=>{
          return (
