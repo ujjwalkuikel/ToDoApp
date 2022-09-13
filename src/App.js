@@ -46,12 +46,12 @@ function App() {
     
     <>
     <Header title="ToDo app by Ujjwal" searchBar={true}/>
-    <div className="container mt-5">
-      <div class="row ">
-        <div class="col mr-5">
+    <div className="container-table">
+      <div class="row" >
+        <div class="col p-5 bg-primary text-light">
           <AddTodo addTodo={addTodo} />
         </div>
-        <div class="col ml-5">
+        <div class="col p-5 bg-success text-white">
          <Todos todo={todos} onDelete={onDelete} />
         </div>
      </div>    
