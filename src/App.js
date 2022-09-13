@@ -46,7 +46,7 @@ function App() {
     
     <>
     <Header title="ToDo app by Ujjwal" searchBar={true}/>
-    <div className="container-table">
+    <div className="container-table ml-2 mr-3">
       <div class="row" >
         <div class="col p-5 bg-primary text-light">
           <AddTodo addTodo={addTodo} />
