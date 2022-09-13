@@ -1,4 +1,4 @@
-name: Github Page Deploy Workflow
+name: automatic deployment
 
 on:
   push:
