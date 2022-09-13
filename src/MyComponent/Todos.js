@@ -10,7 +10,7 @@ export const Todos=(props)=> {
         props.todo.map((todo)=>{
          return (
           <>
-         <TodoItem todo={todo} key={todo.sno} onDelete={props.onDelete}/><hr/></>
+         <TodoItem todo={todo} key={todo.sno} onDelete={props.onDelete}/><hr className='bg-white'/></>
         )})
        }
       

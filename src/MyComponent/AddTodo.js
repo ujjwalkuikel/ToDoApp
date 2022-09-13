@@ -28,7 +28,7 @@ export const AddTodo = (props) => {
       <label htmlFor="desc">Todo Description:</label>
       <input type="text" value={desc} onChange={(e)=>{setdesc(e.target.value)}} className="form-control" id="desc" placeholder="Enter description" name="desc" />
     </div>
-    <button type="submit" className="btn btn-sm  btn-warning">Add</button>
+    <button type="submit" className="btn btn-dark">Add</button>
   </form>
     </div>
  )
