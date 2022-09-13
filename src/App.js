@@ -22,7 +22,7 @@ function App() {
   }
   const addTodo=(title,desc)=>{
     let sno;
-    if(todos.length==0){
+    if(todos.length===0){
       sno=1;
     } 
     else{
