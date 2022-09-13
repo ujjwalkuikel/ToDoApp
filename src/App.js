@@ -22,7 +22,7 @@ function App() {
   }
   const addTodo=(title,desc)=>{
     let sno;
-    if(todos.length===0){
+    if(todos.length==0){
       sno=1;
     } 
     else{
@@ -46,10 +46,18 @@ function App() {
     
     <>
     <Header title="ToDo app by Ujjwal" searchBar={true}/>
-    <AddTodo addTodo={addTodo} />
-    <Todos todo={todos} onDelete={onDelete} />
+    <div className="container mt-5">
+      <div class="row ">
+        <div class="col mr-5">
+          <AddTodo addTodo={addTodo} />
+        </div>
+        <div class="col ml-5">
+         <Todos todo={todos} onDelete={onDelete} />
+        </div>
+     </div>    
     <Footer/>
-    </>
+    
+  </div></>
   );
 }
 
